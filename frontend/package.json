@@ -1,0 +1,10 @@
+{
+  "name": "ml-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
