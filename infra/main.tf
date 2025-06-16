@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "ml_server" {
-  ami                    = var.ami_id
-  instance_type          = "t2.medium"
-  key_name               = var.key_name
+  ami                    = ami-09e6f87a47903347c
+  instance_type          = "t2.micro"
+  key_name               = biliapem
 
   tags = {
     Name = "ml-server"
